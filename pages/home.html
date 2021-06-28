@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
+	<title>Tejasco-Your Property Management</title>
+  <link rel="stylesheet" href="../css/button.css">
+  <link rel="stylesheet" href="../css/menu.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+function openNav()
+{
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav()
+{
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</head>
+<body  style="background-image: url(../image/a.jpg);" class="insert">
+
+ <div class="topnav" >
+ <span style="font-size:30px;color:black;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+ <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a class="sidenava" href="logged/menu 1.html">Real Estate Advisory</a>
+  <a class="sidenava" href="logged/menu 2.html">Valuation and risk assessment</a>
+  <a class="sidenava" href="logged/menu 3.html">Buy/Sell/Rent</a>
+  <a class="sidenava"  href="logged/menu 4.html">Tenancy management</a>
+  <a class="sidenava" href="logged/menu 5.html">Financial assistance from banks</a>
+  <a class="sidenava" href="logged/menu 6.html">Legal Assistance</a>
+  <a class="sidenava" href="logged/menu 7.html">Tax Advisory</a>
+  <a class="sidenava" href="logged/menu 8.html">Contact Us</a>
+ </div>
+
+
+ <a class="topnava" href="logged/aboutus.html"><span class="fa fa-users"></span>&nbsp;About Us</a>
+  <a class="topnava" href="../index.html"><span class="fa fa-user "></span>&nbsp;Logout</a>
+  <a class="topnava" href="home.html"><span class="fa fa-home "></span>&nbsp;Home</a>
+
+</div>
+<div>
+	<img src="../image/tejasco.png" >
+ <span style="font-family: cursive;font-size: 22px;color: #4d4d00;display: block; margin-left: auto; margin-right: auto;text-align: center; ">TEJASCO</span>
+</div>
+
+ <br><br><br>
+
+<form action="search.php" method="post" style="margin-left: auto; margin-right: auto;text-align: center; ">
+  <div style="border-spacing: 0px;">
+  <input style="width:500px;height: 50px; font-size:30px;" type="Text" placeholder="  City,Pincode" name="search">
+  <button style="width:50px;height: 55px; font-size:30px;" type="submit"><i class="fa fa-search"></i></button>
+  </div>
+	</form>
+<table  class="bsr">
+  <tr>
+    <td ><img src="../image/buy.png"><br>
+			<h2>Buy Home</h2><p>Find your place with an immersive photo ecperience. </p><br>
+			<a href="buy.php">Buy</a></td>
+    <td ><img src="../image/rent.png"><br>
+			<h2>Rent Home</h2><p>We are creating online experience by shopping on the largest rental network,for applying. </p>
+			<a href="rent.php">Rent</a></td>
+    <td ><img src="../image/sell.png"><br>
+			<h2>Sell Home</h2><p>Choose our website to sell your property we will make you all the things in your finger tip.</p>
+			<a href="sellhome.php">Sell</a></td>
+  </tr>
+</table>
+</body>
+</html>

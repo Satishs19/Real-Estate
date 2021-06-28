@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="../js/script.js"></script>
+  </head>
+  <body>
+    <div class="bg-img">
+      <div class="content">
+        <a href="../index.html" class="closebtn">&times;</a>
+        <header>Login</header>
+        <span style="color:red;font-size:16px;text-align:center;">Invalid details, please try again</span><br><br>
+        <form action="login.php" method="post">
+          <div class="field">
+            &nbsp;<span class="fa fa-user"></span>&nbsp;
+            <input type="text" id="mail" name="mail" required placeholder="E-mail">
+          </div>
+          <div class="field space">
+            &nbsp;<span class="fa fa-lock"></span>&nbsp;
+            <input type="password" id="pass" name="pass" class="pass-key" required placeholder="Password">
+          </div>
+          <div class="pass">
+            <a href="#">Forgot Password?</a>
+          </div>
+          <div class="field">
+            <input type="submit" value="LOGIN">
+          </div>
+        </form>
+        <div class="signup">Don't have account?
+          <a href="signup.html">Signup Now</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

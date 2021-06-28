@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="bg-img">
+      <div class="content">
+         <a href="../index.html" class="closebtn">&times;</a>
+        <header>Sign up</header>
+        <form action="register.php" method="post">
+          <div class="field space">
+            &nbsp;<span class="fa fa-user"></span>&nbsp;
+            <input type="text" id="name" name="uname" required placeholder=" User Name">
+            <br>
+          </div>
+          <div class="field space">
+            &nbsp;<span class="fa fa-calendar"></span>&nbsp;
+            <input type="text" id="dob" name="dob" required placeholder=" Date of Birth(yyyy-MM-DD)">
+            <br>
+          </div>
+          <div class="field space">
+            &nbsp;<span class="fa fa-phone"></span>&nbsp;
+            <input type="tel" id="phone" name="pno" pattern="^\d{10}$" required placeholder=" 10 digit Phone no">
+            <br>
+          </div>
+          <div class="field space">
+            &nbsp;<span class="fa  fa-envelope"></span>&nbsp;
+            <input type="email" id="mail" name="mail" required placeholder=" E-mail">
+          </div>
+          <div class="field space">
+            &nbsp;<span class="fa fa-lock"></span>&nbsp;
+            <input type="password" id="pass" name="pass" class="pass-key" pattern=".{8,}" required placeholder="Password(atleast 8 character)">
+          </div>
+          <div class="field space">
+            <input type="submit" value="submit">
+          </div>
+          <div class="signup">Already have account?
+            <a href="login.html">Login Now</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
